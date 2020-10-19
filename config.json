@@ -1,0 +1,17 @@
+{
+ "db": {
+   "dialect": "mysql",
+   "host": "localhost",
+   "protocol":"tcp",
+   "port": "3306",
+   "name": "myDb",
+   "user": "root",
+   "password": "root"
+ },
+ "redis": {
+   "host": "localhost",
+   "port":"6379",
+   "password": "",
+   "db": 0
+ }
+}
