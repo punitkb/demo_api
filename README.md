@@ -6,8 +6,8 @@
  - redis-cli 5.0.5
  
 ## run
- - make MySql database (create database myDb)
-    - if you want to change database name, port and password please change it in config.json file
+ - create MySql database ( :=> create database myDb) where myDb is database name
+    - if you want to change host, database name, port and password please change it in config.json file
  
  - to setup tables in db =>  go run main.go -config=config.json -process=setup 
  
